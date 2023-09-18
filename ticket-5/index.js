@@ -17,9 +17,9 @@ const shoppingCart = [
   },
 ];
 
-let totalCost = 0;
+let totalCost = 23.60;
 
-for (let i = 0; i <= shoppingCart.length; i++) {
+for (let i = 0; i < shoppingCart.length; i++) {
   const item = shoppingCart[i];
   const costForItem = item.price * item.quantity;
   totalCost += costForItem;
